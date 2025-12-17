@@ -1,0 +1,12 @@
+[
+  { "text": "Do yoga", "priority": 0 },
+  { "text": "Read a book", "priority": 0 },
+  { "text": "Learn TypeScript", "priority": 0 },
+  { "text": "Learn Rust", "priority": 0 },
+  { "text": "Attend fitness class", "priority": 0.33 },
+  { "text": "Feed the cat", "priority": 0.33 },
+  { "text": "Complete language lessons", "priority": 0.66 },
+  { "text": "Plan meals for the week", "priority": 0.66 },
+  { "text": "Prepare for upcoming test", "priority": 1 },
+  { "text": "Finalize project report. URGENT!", "priority": 1 }
+]

@@ -18,6 +18,7 @@ export function createTodosStore() {
         toggleComplete: (id: number) => update(t => t.map(todo => todo.id === id ? { ...todo, completed: !todo.completed } : todo)),
         setFocus: (id: number, focus: boolean) => update(t => t.map(todo => todo.id === id ? { ...todo, onFocus: focus } : todo)),
         setPriority: (id: number, priority: number) => update(t => t.map(todo => todo.id === id ? { ...todo, priority } : todo)),
-        clear: () => set([])
+        clear: () => set([]),
+        updateTodo: (id: number, newTodoObject: Partial<Todo>) => update(t => t.map(todo => todo.id === id ? { ...todo, ...newTodoObject } : todo)),
     }
 }
